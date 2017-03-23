@@ -156,6 +156,7 @@ void printBoard(int board[BOARD_SIZE][BOARD_SIZE]){
 
 //To be changed in XGame Week 5 Assignment
 int playMove(int x, int y, int PLAYER, int board[BOARD_SIZE][BOARD_SIZE]){
+    // Check if
     board[x-1][y-1] = PLAYER; //Set board to either P1_SPACE or P2_SPACE
 
 
