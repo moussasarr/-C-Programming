@@ -13,7 +13,7 @@ int main()
     char *cptr;
 
     for(x=0;x<5;x++){
-        cptr = gang[x];
+        cptr = *(gang+x);
         while(*cptr){
             putchar(*cptr);
             cptr++;
